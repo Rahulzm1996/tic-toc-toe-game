@@ -97,7 +97,7 @@ const App = () => {
       <Row>
         <Col md={6} className="offset-md-3">
           {drawMessage ? (<div className="mb-2 mt-2">
-              <h1 className="text-danger text-uppercase text-center">
+              <h1 className="text-success text-uppercase text-center">
                 {drawMessage}
               </h1>
               <Button
